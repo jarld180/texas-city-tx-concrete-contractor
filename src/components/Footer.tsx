@@ -40,14 +40,15 @@ const Footer: React.FC = () => {
               <li><a href="/#contact" className="text-black hover:text-black transition-colors font-medium">Contact</a></li>
             </ul>
           </div>
-          <div>
+                    <div>
             <h4 className="font-bold text-lg mb-8 uppercase tracking-widest text-black">Service Areas</h4>
             <ul className="space-y-4">
-              <li><span className="text-black font-medium">Pearland, TX</span></li>
-              <li><span className="text-black font-medium">League City, TX</span></li>
-              <li><span className="text-black font-medium">Friendswood, TX</span></li>
-              <li><span className="text-black font-medium">Texas City, TX</span></li>
-              <li><span className="text-black font-medium">Galveston, TX</span></li>
+              <li><Link to="/pearland" className="text-black hover:text-black transition-colors font-medium">Pearland, TX</Link></li>
+              <li><Link to="/league-city" className="text-black hover:text-black transition-colors font-medium">League City, TX</Link></li>
+              <li><Link to="/friendswood" className="text-black hover:text-black transition-colors font-medium">Friendswood, TX</Link></li>
+              <li><Link to="/" className="text-black hover:text-black transition-colors font-medium">Texas City, TX</Link></li>
+              <li><Link to="/galveston" className="text-black hover:text-black transition-colors font-medium">Galveston, TX</Link></li>
+              <li><Link to="/alvin" className="text-black hover:text-black transition-colors font-medium">Alvin, TX</Link></li>
             </ul>
           </div>
         </div>
